@@ -54,7 +54,7 @@ MonoBehaviour:
           m_UnmaskedControls: []
     - m_Type: 0
       m_Summary: 
-      m_Text: "<b><size=14>Frame Prefab</size></b>\n\nLet\u2019s frame the BuildingShort
+      m_Text: "<b><size=14>Frame Prefab</size></b>\n\nLet\u2019s frame the StuntJump
         Prefab instance in the Scene view."
       m_TutorialButtonText: 
       m_Tutorial: {fileID: 0}
@@ -91,8 +91,8 @@ MonoBehaviour:
           m_MaskSizeModifier: 0
           m_UnmaskedControls: []
     - m_Type: 1
-      m_Summary: Frame the BuildingShort
-      m_Text: Ensure that the BuildingShort Prefab is still selected in the hierarchy,
+      m_Summary: Frame the StuntJump
+      m_Text: Ensure that the StuntJump Prefab is still selected in the hierarchy,
         and with your cursor over the Scene view, go to <b>Edit > Frame selected</b>
         or Press F on the keyboard to frame the Prefab.
       m_TutorialButtonText: 
@@ -175,5 +175,4 @@ MonoBehaviour:
         m_ComponentIndex: 0
         m_AssetObject: {fileID: 0}
         m_Prefab: {fileID: 0}
-      m_FutureObjectReference: {fileID: 114113261752726112, guid: be261f07c71d3462bbf00524e82591ad,
-        type: 2}
+      m_FutureObjectReference: {fileID: 0}

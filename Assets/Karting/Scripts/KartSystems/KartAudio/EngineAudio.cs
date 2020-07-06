@@ -7,8 +7,7 @@ namespace KartGame.KartSystems
     /// </summary>
     public partial class EngineAudio : MonoBehaviour
     {
-        [RequireInterface(typeof(IKartInfo))]
-        public Object kartInfo;
+        public ArcadeKart arcadeKart;
 
         [Range(0, 1)]
         public float RPM;
@@ -34,7 +33,6 @@ namespace KartGame.KartSystems
         [Tooltip("Map RPM to RPM^3")]
         public bool usePow = false;
 
-        IKartInfo m_KartInfo;
         float m_NextStrokeTime;
         float m_Time;
         float m_SecondsPerSample;
@@ -48,7 +46,6 @@ namespace KartGame.KartSystems
 
         void Awake()
         {
-            m_KartInfo = kartInfo as IKartInfo;
             m_RandomBuffer = new float[97];
             for (var i = 0; i < m_RandomBuffer.Length; i++)
                 m_RandomBuffer[i] = Random.Range(-1, 1);
@@ -64,7 +61,7 @@ namespace KartGame.KartSystems
 
         void Update()
         {
-            RPM = m_KartInfo.LocalSpeed / m_KartInfo.CurrentStats.topSpeed;
+            RPM = arcadeKart != null ? Mathf.Abs(arcadeKart.LocalSpeed())  : 0;
             m_DeltaRPM = RPM - m_LastRPM;
 
             //damp the movement of m_LastRPM

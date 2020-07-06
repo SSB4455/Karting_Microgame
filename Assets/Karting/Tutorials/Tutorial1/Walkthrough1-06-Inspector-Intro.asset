@@ -46,10 +46,12 @@ MonoBehaviour:
       m_Text: '<b><size=14>Inspector Window</size></b>
 
 
-        When a GameObject is selected, the Inspector window shows its properties.
+        When a GameObject
+        is selected, the Inspector window shows its properties.
 
 
-        The Inspector lists all the components and properties of the Kart GameObject
+        The Inspector
+        lists all the components and properties of the KartClassic_Player GameObject
         that you just selected.
 
 

@@ -64,10 +64,11 @@ MonoBehaviour:
           m_UnmaskedControls: []
     - m_Type: 0
       m_Summary: 
-      m_Text: '<b><size=14>Move Building</size></b>
+      m_Text: '<b><size=14>Move Jump</size></b>
 
 
-        Reposition the Building Prefab instance in the scene by using the Move Tool.'
+        Reposition the JumpRamp
+        Prefab instance in the scene by using the Move Tool.'
       m_TutorialButtonText: 
       m_Tutorial: {fileID: 0}
       m_Icons:
@@ -81,7 +82,7 @@ MonoBehaviour:
         m_MaskingEnabled: 0
         m_UnmaskedViews: []
     - m_Type: 1
-      m_Summary: Reposition BuildingShort
+      m_Summary: Reposition JumpRamp
       m_Text: Drag the red, blue or green handles to move your Prefab around. Place
         it wherever you think it looks good!
       m_TutorialButtonText: 
@@ -95,15 +96,18 @@ MonoBehaviour:
         m_Items:
         - type:
             m_TypeName: Unity.InteractiveTutorials.PropertyModificationCriterion,
-              Unity.InteractiveTutorials.Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+              Unity.InteractiveTutorials.Core, Version=0.0.0.0, Culture=neutral,
+              PublicKeyToken=null
           criterion: {fileID: 114231739597224594}
         - type:
             m_TypeName: Unity.InteractiveTutorials.PropertyModificationCriterion,
-              Unity.InteractiveTutorials.Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+              Unity.InteractiveTutorials.Core, Version=0.0.0.0, Culture=neutral,
+              PublicKeyToken=null
           criterion: {fileID: 114748253409174282}
         - type:
             m_TypeName: Unity.InteractiveTutorials.PropertyModificationCriterion,
-              Unity.InteractiveTutorials.Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+              Unity.InteractiveTutorials.Core, Version=0.0.0.0, Culture=neutral,
+              PublicKeyToken=null
           criterion: {fileID: 114026550283571882}
       m_MaskingSettings:
         m_MaskingEnabled: 1
@@ -185,7 +189,7 @@ MonoBehaviour:
       m_ComponentIndex: 0
       m_AssetObject: {fileID: 0}
       m_Prefab: {fileID: 0}
-    m_FutureObjectReference: {fileID: 114537518878008684, guid: be261f07c71d3462bbf00524e82591ad,
+    m_FutureObjectReference: {fileID: 5624349241633580052, guid: be261f07c71d3462bbf00524e82591ad,
       type: 2}
 --- !u!114 &114231739597224594
 MonoBehaviour:
@@ -212,7 +216,7 @@ MonoBehaviour:
       m_ComponentIndex: 0
       m_AssetObject: {fileID: 0}
       m_Prefab: {fileID: 0}
-    m_FutureObjectReference: {fileID: 114537518878008684, guid: be261f07c71d3462bbf00524e82591ad,
+    m_FutureObjectReference: {fileID: 5624349241633580052, guid: be261f07c71d3462bbf00524e82591ad,
       type: 2}
 --- !u!114 &114748253409174282
 MonoBehaviour:
@@ -239,5 +243,5 @@ MonoBehaviour:
       m_ComponentIndex: 0
       m_AssetObject: {fileID: 0}
       m_Prefab: {fileID: 0}
-    m_FutureObjectReference: {fileID: 114537518878008684, guid: be261f07c71d3462bbf00524e82591ad,
+    m_FutureObjectReference: {fileID: 5624349241633580052, guid: be261f07c71d3462bbf00524e82591ad,
       type: 2}

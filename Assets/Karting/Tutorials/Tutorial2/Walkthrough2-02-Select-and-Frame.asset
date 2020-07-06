@@ -46,8 +46,8 @@ MonoBehaviour:
       m_Text: '<b><size=14>Select and Frame Object</size></b>
 
 
-        Before you change the color of your Kart, you should frame it in the Scene
-        view.'
+        Before you
+        change the color of your Kart, you should frame it in the Scene view.'
       m_TutorialButtonText: 
       m_Tutorial: {fileID: 0}
       m_Icons:
@@ -62,7 +62,7 @@ MonoBehaviour:
         m_UnmaskedViews: []
     - m_Type: 1
       m_Summary: Select the Kart
-      m_Text: In the Hierarchy window, select the <b>Kart</b> GameObject.
+      m_Text: In the Hierarchy window, select the <b>KartClassic_Player</b> GameObject.
       m_TutorialButtonText: 
       m_Tutorial: {fileID: 0}
       m_Icons:
@@ -89,7 +89,17 @@ MonoBehaviour:
             m_Items: []
           m_MaskType: 0
           m_MaskSizeModifier: 0
-          m_UnmaskedControls: []
+          m_UnmaskedControls:
+          - m_SelectorMode: 0
+            m_GUIContent:
+              m_Text: KartClassic_Player
+              m_Image: {fileID: 0}
+              m_Tooltip: 
+            m_ControlName: 
+            m_PropertyPath: 
+            m_TargetType:
+              m_TypeName: 
+            m_GUIStyleName: 
     - m_Type: 1
       m_Summary: Frame the Kart
       m_Text: With your <b>mouse cursor over the Scene view</b>, press <b>F</b> on
@@ -156,8 +166,8 @@ MonoBehaviour:
   m_ObjectReferences:
     m_Items:
     - m_SceneObjectReference:
-        m_SceneGuid: f8c7069e6d9b2124b861144ca83d31e8
-        m_GameObjectGuid: b813da5b-b190-4543-a594-de3a2cdd433a
+        m_SceneGuid: 92786e23da2af4a4f8803aaf44c47121
+        m_GameObjectGuid: 3d2a63ac-faff-4724-9919-39a4129d50e4
         m_SerializedComponentType:
           m_TypeName: 
         m_ComponentIndex: 0
@@ -179,8 +189,8 @@ MonoBehaviour:
   m_ObjectReferences:
     m_Items:
     - m_SceneObjectReference:
-        m_SceneGuid: f8c7069e6d9b2124b861144ca83d31e8
-        m_GameObjectGuid: b813da5b-b190-4543-a594-de3a2cdd433a
+        m_SceneGuid: 92786e23da2af4a4f8803aaf44c47121
+        m_GameObjectGuid: 3d2a63ac-faff-4724-9919-39a4129d50e4
         m_SerializedComponentType:
           m_TypeName: 
         m_ComponentIndex: 0

@@ -43,10 +43,10 @@ MonoBehaviour:
           m_UnmaskedControls: []
     - m_Type: 0
       m_Summary: 
-      m_Text: "<b><size=14>Select GameObject in Hierarchy</size></b>\n\nClick on an
-        object in the <b>Hierarchy Window</b> to select it. \n\nAlternatively you
-        can also select objects by clicking them in the Scene View. For now, lets
-        use the Hierarchy."
+      m_Text: "<b><size=14>Select GameObject in Hierarchy</size></b>\n\nClick on
+        an object in the <b>Hierarchy Window</b> to select it. \n\nAlternatively
+        you can also select objects by clicking them in the Scene View. For now,
+        lets use the Hierarchy."
       m_TutorialButtonText: 
       m_Tutorial: {fileID: 0}
       m_Icons:
@@ -81,9 +81,9 @@ MonoBehaviour:
               m_TypeName: 
             m_GUIStyleName: 
     - m_Type: 1
-      m_Summary: Select Kart GameObject
-      m_Text: In the <b>Hierarchy window</b>, select the <b>Kart</b> GameObject in
-        the list.
+      m_Summary: Select KartClassic_Player GameObject
+      m_Text: In the <b>Hierarchy window</b>, select the <b>KartClassic_Player</b>
+        GameObject in the list.
       m_TutorialButtonText: 
       m_Tutorial: {fileID: 0}
       m_Icons:
@@ -113,7 +113,7 @@ MonoBehaviour:
           m_UnmaskedControls:
           - m_SelectorMode: 0
             m_GUIContent:
-              m_Text: Kart
+              m_Text: KartClassic_Player
               m_Image: {fileID: 0}
               m_Tooltip: 
             m_ControlName: 
@@ -156,8 +156,8 @@ MonoBehaviour:
   m_ObjectReferences:
     m_Items:
     - m_SceneObjectReference:
-        m_SceneGuid: f8c7069e6d9b2124b861144ca83d31e8
-        m_GameObjectGuid: b813da5b-b190-4543-a594-de3a2cdd433a
+        m_SceneGuid: 92786e23da2af4a4f8803aaf44c47121
+        m_GameObjectGuid: 3d2a63ac-faff-4724-9919-39a4129d50e4
         m_SerializedComponentType:
           m_TypeName: 
         m_ComponentIndex: 0

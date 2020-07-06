@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Walkthrough4
   m_EditorClassIdentifier: 
   m_TutorialTitle: Adding a Prefab
-  m_LessonId: 48145
+  m_LessonId: 47145
   m_Version: 0
-  m_Scene: {fileID: 102900000, guid: f8c7069e6d9b2124b861144ca83d31e8, type: 3}
+  m_Scene: {fileID: 102900000, guid: 92786e23da2af4a4f8803aaf44c47121, type: 3}
   m_DefaultSceneCameraSettings:
     m_CameraMode: 0
     m_FocusMode: 0
@@ -47,5 +47,6 @@ MonoBehaviour:
     - {fileID: 11400000, guid: fb1142c575fff4f0abbd81cfa7064e2c, type: 2}
     - {fileID: 11400000, guid: 9e40b27755e7c417bb209bc003d8b464, type: 2}
     - {fileID: 11400000, guid: 423bbef88c09e457caf11e626b5039fa, type: 2}
+    - {fileID: 11400000, guid: a93132462568145b1b0d3b83f6558d54, type: 2}
     - {fileID: 11400000, guid: 426c2ecafb50d45939c113b173a202a3, type: 2}
-  m_WindowLayout: {fileID: 102900000, guid: cde0ced735db64fadb69328562c039e2, type: 3}
+  m_WindowLayout: {fileID: 102900000, guid: 6867af4bcb42c4e8bb795333f6f1eec7, type: 3}

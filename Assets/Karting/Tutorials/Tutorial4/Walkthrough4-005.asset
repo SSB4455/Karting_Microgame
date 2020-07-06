@@ -33,11 +33,11 @@ MonoBehaviour:
     - m_Type: 0
       m_Summary: 
       m_Text: "<b><size=16>Add Prefab</size></b>\n\x03\x03\n<b><size=11><color=\"grey\">TUTORIAL
-        </color></size></b>\n\n<b>Prefabs</b> are a GameObject that has components
-        and properties, and is stored as an asset. It can be reused anywhere you want
-        in your game.\n\n<b>Project window</b> lists all the prefabs that are available
-        in this project, and we have a few that are ready to add to the Scene. \n\nClick
-        <b>Start</b> below to begin.\x03"
+        </color></size></b>\n\nA <b>prefab</b> is a GameObject that has components
+        and properties, and is stored as an asset. It can be reused anywhere you
+        want in your game.\n\n<b>Project window</b> lists all the prefabs that are
+        available in this project, and we have a few that are ready to add to the
+        Scene. \n\nClick <b>Start</b> below to begin.\x03"
       m_TutorialButtonText: 
       m_Tutorial: {fileID: 0}
       m_Icons:

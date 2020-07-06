@@ -12,11 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f107dc6d4c984c45bdafd3bb15f98f0, type: 3}
   m_Name: Walkthrough5
   m_EditorClassIdentifier: 
-  m_WindowTitle: Walkthrough
   m_TutorialTitle: Build, Share, and Play
-  m_LessonId: 48146
+  m_LessonId: 47146
   m_Version: 0
-  m_Scene: {fileID: 102900000, guid: f8c7069e6d9b2124b861144ca83d31e8, type: 3}
+  m_Scene: {fileID: 102900000, guid: 92786e23da2af4a4f8803aaf44c47121, type: 3}
   m_DefaultSceneCameraSettings:
     m_CameraMode: 0
     m_FocusMode: 0
@@ -45,7 +44,6 @@ MonoBehaviour:
     m_Items:
     - {fileID: 11400000, guid: 8c0fe4cc1a06b4330b9280a5e61560b7, type: 2}
     - {fileID: 11400000, guid: 6b9c840879aa4814c862280c389a83a1, type: 2}
-    - {fileID: 11400000, guid: 957cdb143db889f4c8bf8ff83e3cb60e, type: 2}
     - {fileID: 11400000, guid: 64c97b8d5647467429239de98178e1a8, type: 2}
     - {fileID: 11400000, guid: e54090827562a7e4fa705a704dc2d063, type: 2}
     - {fileID: 11400000, guid: 07aa0cac4743c954193724649c343eec, type: 2}

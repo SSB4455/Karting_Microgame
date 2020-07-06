@@ -58,9 +58,9 @@ MonoBehaviour:
               m_Image: {fileID: 0}
               m_Tooltip: 
             m_ControlName: 
-            m_PropertyPath: defaultStats.topSpeed
+            m_PropertyPath: baseStats.TopSpeed
             m_TargetType:
-              m_TypeName: KartGame.KartSystems.KartMovement, Assembly-CSharp, Version=0.0.0.0,
+              m_TypeName: KartGame.KartSystems.ArcadeKart, KartGame, Version=0.0.0.0,
                 Culture=neutral, PublicKeyToken=null
             m_GUIStyleName: 
     - m_Type: 0
@@ -68,11 +68,12 @@ MonoBehaviour:
       m_Text: '<b><size=14>Change Top Speed Property</size></b>
 
 
-        You can see all the properties of the Kart GameOBject in the Inspector.
+        You can
+        see all the properties of the KartClassic_Player GameObject in the Inspector.
 
 
-        Try increasing the number in the <b>Top Speed</b> field to make the Kart go
-        faster.'
+        Try
+        increasing the number in the <b>Top Speed</b> field to make the Kart go faster.'
       m_TutorialButtonText: 
       m_Tutorial: {fileID: 0}
       m_Icons:
@@ -113,14 +114,14 @@ MonoBehaviour:
               m_Image: {fileID: 0}
               m_Tooltip: 
             m_ControlName: 
-            m_PropertyPath: defaultStats.topSpeed
+            m_PropertyPath: baseStats.TopSpeed
             m_TargetType:
-              m_TypeName: KartGame.KartSystems.KartMovement, Assembly-CSharp, Version=0.0.0.0,
+              m_TypeName: KartGame.KartSystems.ArcadeKart, KartGame, Version=0.0.0.0,
                 Culture=neutral, PublicKeyToken=null
             m_GUIStyleName: 
     - m_Type: 1
       m_Summary: Edit <b>Top Speed</b> Property
-      m_Text: You may need to click to open Default Stats.
+      m_Text: You may need to click to open Base Stats.
       m_TutorialButtonText: 
       m_Tutorial: {fileID: 0}
       m_Icons:
@@ -132,8 +133,9 @@ MonoBehaviour:
         m_Items:
         - type:
             m_TypeName: Unity.InteractiveTutorials.PropertyModificationCriterion,
-              Unity.InteractiveTutorials.Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-          criterion: {fileID: 114360571127113222}
+              Unity.InteractiveTutorials.Core, Version=0.0.0.0, Culture=neutral,
+              PublicKeyToken=null
+          criterion: {fileID: 194128382979072201}
       m_MaskingSettings:
         m_MaskingEnabled: 1
         m_UnmaskedViews:
@@ -165,9 +167,9 @@ MonoBehaviour:
               m_Image: {fileID: 0}
               m_Tooltip: 
             m_ControlName: 
-            m_PropertyPath: defaultStats.topSpeed
+            m_PropertyPath: baseStats.TopSpeed
             m_TargetType:
-              m_TypeName: KartGame.KartSystems.KartMovement, Assembly-CSharp, Version=0.0.0.0,
+              m_TypeName: KartGame.KartSystems.ArcadeKart, KartGame, Version=0.0.0.0,
                 Culture=neutral, PublicKeyToken=null
             m_GUIStyleName: 
   m_CameraSettings:
@@ -190,7 +192,7 @@ MonoBehaviour:
   m_DoneButton: Done
   m_CompletedSound: {fileID: 8300000, guid: 93fbb109633e844259ea828442bda0cb, type: 3}
   m_autoAdvance: 0
---- !u!114 &114360571127113222
+--- !u!114 &194128382979072201
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -202,17 +204,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e52eaa6fdf2a4794ba81c7bc450905e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_PropertyPath: defaultStats.topSpeed
+  m_PropertyPath: baseStats.TopSpeed
   m_TargetValueMode: 1
   m_TargetValue: 
   m_TargetValueType: 1
   m_Target:
     m_SceneObjectReference:
-      m_SceneGuid: f8c7069e6d9b2124b861144ca83d31e8
-      m_GameObjectGuid: b813da5b-b190-4543-a594-de3a2cdd433a
+      m_SceneGuid: 92786e23da2af4a4f8803aaf44c47121
+      m_GameObjectGuid: 3d2a63ac-faff-4724-9919-39a4129d50e4
       m_SerializedComponentType:
-        m_TypeName: KartGame.KartSystems.KartMovement, Assembly-CSharp, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
+        m_TypeName: KartGame.KartSystems.ArcadeKart, KartGame, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
       m_ComponentIndex: 0
       m_AssetObject: {fileID: 0}
       m_Prefab: {fileID: 0}

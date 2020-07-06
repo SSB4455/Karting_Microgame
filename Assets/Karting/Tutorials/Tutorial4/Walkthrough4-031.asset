@@ -56,7 +56,8 @@ MonoBehaviour:
       m_Text: '<b><size=14>Select Move Tool</size></b>
 
 
-        Let''s position the Building by using the Move Tool.'
+        Let''s position
+        the Jump by using the Move Tool.'
       m_TutorialButtonText: 
       m_Tutorial: {fileID: 0}
       m_Icons:

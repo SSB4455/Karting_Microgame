@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Walkthrough2
   m_EditorClassIdentifier: 
   m_TutorialTitle: Changing a Color
-  m_LessonId: 48143
+  m_LessonId: 47143
   m_Version: 0
-  m_Scene: {fileID: 102900000, guid: f8c7069e6d9b2124b861144ca83d31e8, type: 3}
+  m_Scene: {fileID: 102900000, guid: 92786e23da2af4a4f8803aaf44c47121, type: 3}
   m_DefaultSceneCameraSettings:
     m_CameraMode: 0
     m_FocusMode: 0
@@ -49,4 +49,4 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 9d468684850864dd69745d16bb812c63, type: 2}
     - {fileID: 11400000, guid: 25b32eae891f6b34dae30855cf0cfe77, type: 2}
     - {fileID: 11400000, guid: e8cfa82377f45440181504b0de623967, type: 2}
-  m_WindowLayout: {fileID: 102900000, guid: 2e64def163f6c4611a1ee698c44d1ae2, type: 3}
+  m_WindowLayout: {fileID: 102900000, guid: 5fc9f1a031968443691672140f4ecf4d, type: 3}

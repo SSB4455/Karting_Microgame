@@ -400,7 +400,7 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Karting/Prefabs
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\yatchi.lau\Downloads\00_kart-template-1.0.2-preview\kart-template-1.0.2-preview
+  m_LastProjectPath: E:\Karting_Microgame
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:

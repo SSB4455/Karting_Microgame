@@ -46,8 +46,8 @@ MonoBehaviour:
       m_Text: "<b><size=14>Prefabs in Project Window</size></b>\n\nPrefabs can be
         found in the <b>Project</b> window, they are represented by a blue cube icon.
         \n\nUsually found within a Prefabs folder for organization, in this project
-        we have surfaced one prefab named BuildingShort to the Assets > Karting >
-        Prefabs -folder that you can add to the scene."
+        we have surfaced one prefab named JumpRamp to the Assets > Karting > Prefabs
+        > Props -folder that you can add to the scene."
       m_TutorialButtonText: 
       m_Tutorial: {fileID: 0}
       m_Icons:

@@ -93,8 +93,8 @@ MonoBehaviour:
           m_UnmaskedControls: []
     - m_Type: 1
       m_Summary: Change Albedo color
-      m_Text: 'Click in the box, and the <b>Color Picker Window</b> will appear. Select
-        a color by clicking on it. When done, close the window. '
+      m_Text: 'Click in the box, and the <b>Color Picker Window</b> will appear.
+        Select a color by clicking on it. When done, close the window. '
       m_TutorialButtonText: 
       m_Tutorial: {fileID: 0}
       m_Icons:
@@ -106,7 +106,8 @@ MonoBehaviour:
         m_Items:
         - type:
             m_TypeName: Unity.InteractiveTutorials.MaterialPropertyModifiedCriterion,
-              Unity.InteractiveTutorials.Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+              Unity.InteractiveTutorials.Core, Version=0.0.0.0, Culture=neutral,
+              PublicKeyToken=null
           criterion: {fileID: 114216683660447180}
       m_MaskingSettings:
         m_MaskingEnabled: 1
@@ -172,7 +173,7 @@ MonoBehaviour:
       m_SerializedComponentType:
         m_TypeName: 
       m_ComponentIndex: 0
-      m_AssetObject: {fileID: 2100000, guid: 5304db1f3e113764fae919908740f4ba, type: 2}
+      m_AssetObject: {fileID: 2100000, guid: 09621e790441a46dd96384071c5c8a73, type: 2}
       m_Prefab: {fileID: 0}
     m_FutureObjectReference: {fileID: 0}
   m_MaterialPropertyPath: _Color

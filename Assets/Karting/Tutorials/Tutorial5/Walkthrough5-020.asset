@@ -74,10 +74,11 @@ MonoBehaviour:
     - m_Type: 0
       m_Summary: 
       m_Text: "<b><size=14>Switch Platform and Build</size></b>\n\nTo get your game
-        working on the web, you need to set your build platform to <b>WebGL</b>. \n\nSetting
-        your platform tells Unity how to build your project so it works where people
-        will play it.\n\n<b>1.</b>  Select <b>WebGL</b> in the Platform listing.\n\n<b>2.</b>
-        \ Click <b> Switch Platform</b>. The project will update to the WebGL platform."
+        working on the web, you need to set your build platform to <b>WebGL</b>.
+        \n\nSetting your platform tells Unity how to build your project so it works
+        where people will play it.\n\n<b>1.</b>  Select <b>WebGL</b> in the Platform
+        listing.\n\n<b>2.</b>  Click <b> Switch Platform</b>. The project will update
+        to the WebGL platform."
       m_TutorialButtonText: 
       m_Tutorial: {fileID: 0}
       m_Icons:
@@ -92,8 +93,8 @@ MonoBehaviour:
         m_UnmaskedViews: []
     - m_Type: 1
       m_Summary: 3. Click <b>Build</b> Button
-      m_Text: Click on the Build button and select a folder where you want to save
-        your game file.
+      m_Text: Click on the Build button and <b>create</b> a folder where you want
+        to save your game file.
       m_TutorialButtonText: 
       m_Tutorial: {fileID: 0}
       m_Icons:

@@ -67,11 +67,12 @@ MonoBehaviour:
       m_Text: '<b><size=14>Game Controls</size></b>
 
 
-        The controls for this game are <b>Arrow keys</b>, the <b>Spacebar</b>, and
-        <b>ESC</b>.
+        You control the Kart
+        with the <b>Arrow keys</b>.
 
 
-        It takes 3 laps to finish. Once you are done, exit the play mode.'
+        Drive through the 3 checkpoints to
+        finish. Once you are done, exit the play mode.'
       m_TutorialButtonText: 
       m_Tutorial: {fileID: 0}
       m_Icons:

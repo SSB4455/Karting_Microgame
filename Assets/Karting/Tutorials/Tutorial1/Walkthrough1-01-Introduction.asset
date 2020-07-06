@@ -33,9 +33,9 @@ MonoBehaviour:
     - m_Type: 0
       m_Summary: 
       m_Text: "<b><size=16>Playtest</size></b>\n\x03\x03\n<b><size=11><color=\"grey\">TUTORIAL
-        </color></size></b>\n\nIn this first tutorial, you will start by playing the
-        Karting game. After, you will learn how to make your first modification in
-        Unity.\x03\n\n\u2192  Click <b>Start</b> below to begin."
+        </color></size></b>\n\nIn this first tutorial, you will start by playing
+        the Karting game. After, you will learn how to make your first modification
+        in Unity.\x03\n\n\u2192  Click <b>Start</b> below to begin."
       m_TutorialButtonText: 
       m_Tutorial: {fileID: 0}
       m_Icons:
@@ -52,9 +52,9 @@ MonoBehaviour:
     m_CameraMode: 1
     m_FocusMode: 0
     m_Orthographic: 0
-    m_Size: 10
-    m_Pivot: {x: -5, y: 26.339746, z: -12}
-    m_Rotation: {x: 0.5, y: 0, z: 0, w: 0.8660254}
+    m_Size: 4.827105
+    m_Pivot: {x: 15.98166, y: 4.643736, z: -10.756748}
+    m_Rotation: {x: 0.12725256, y: 0.0014878073, z: -0.00019084777, w: 0.99187046}
     m_FrameObject:
       m_SceneGuid: 
       m_GameObjectGuid: 

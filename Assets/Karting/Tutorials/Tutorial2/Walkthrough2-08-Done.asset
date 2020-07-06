@@ -33,8 +33,8 @@ MonoBehaviour:
     - m_Type: 0
       m_Summary: 
       m_Text: "<b><size=14>Tutorial Completed</size></b>\x03\x03\n\nGreat! Now you've
-        learned how to change colors of objects.\n\nWant to add a building to your
-        game? Learn how in the next tutorial."
+        learned how to change colors of objects.\n\nWant to add a jump to your game?
+        Learn how in the next tutorial."
       m_TutorialButtonText: 
       m_Tutorial: {fileID: 0}
       m_Icons:

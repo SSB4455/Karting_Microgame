@@ -46,8 +46,9 @@ MonoBehaviour:
       m_Text: '<b><size=14>Select Material</size></b>
 
 
-        The <b>Project window</b> is where you find all of the assets that are available
-        to use in your project, which includes materials.'
+        The <b>Project window</b>
+        is where you find all of the assets that are available to use in your project,
+        which includes materials.'
       m_TutorialButtonText: 
       m_Tutorial: {fileID: 0}
       m_Icons:
@@ -61,8 +62,8 @@ MonoBehaviour:
         m_MaskingEnabled: 0
         m_UnmaskedViews: []
     - m_Type: 1
-      m_Summary: Select <b>KartRacerMaterial</b>
-      m_Text: Select the <b>KartRacerMaterial</b> Material in the Project window.
+      m_Summary: Select <b>KartBody</b>
+      m_Text: Select the <b>KartBody</b> Material in the Project window.
       m_TutorialButtonText: 
       m_Tutorial: {fileID: 0}
       m_Icons:
@@ -86,10 +87,22 @@ MonoBehaviour:
             m_TypeName: UnityEditor.ProjectBrowser, UnityEditor, Version=0.0.0.0,
               Culture=neutral, PublicKeyToken=null
           m_AlternateEditorWindowTypes:
-            m_Items: []
+            m_Items:
+            - editorWindowType:
+                m_TypeName: 
           m_MaskType: 0
           m_MaskSizeModifier: 0
-          m_UnmaskedControls: []
+          m_UnmaskedControls:
+          - m_SelectorMode: 0
+            m_GUIContent:
+              m_Text: KartBody
+              m_Image: {fileID: 0}
+              m_Tooltip: 
+            m_ControlName: 
+            m_PropertyPath: 
+            m_TargetType:
+              m_TypeName: 
+            m_GUIStyleName: 
   m_CameraSettings:
     m_CameraMode: 0
     m_FocusMode: 0
@@ -130,6 +143,6 @@ MonoBehaviour:
         m_SerializedComponentType:
           m_TypeName: 
         m_ComponentIndex: 0
-        m_AssetObject: {fileID: 2100000, guid: 5304db1f3e113764fae919908740f4ba, type: 2}
+        m_AssetObject: {fileID: 2100000, guid: 09621e790441a46dd96384071c5c8a73, type: 2}
         m_Prefab: {fileID: 0}
       m_FutureObjectReference: {fileID: 0}

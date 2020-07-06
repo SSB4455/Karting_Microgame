@@ -55,8 +55,8 @@ MonoBehaviour:
     - m_Type: 0
       m_Summary: 
       m_Text: "<b><size=14>Drag Prefab to Scene</size></b>\n\nNow we\u2019re going
-        to drag the <b>BuildingShort</b> Prefab from the Project window, into the
-        Scene view. \n\nThis will <b>instantiate</b> it (also known as \u201Cspawning\u201D
+        to drag the <b>JumpRamp</b> Prefab from the Project window, into the Scene
+        view. \n\nThis will <b>instantiate</b> it (also known as \u201Cspawning\u201D
         or \u201Ccloning\u201D it) in the scene."
       m_TutorialButtonText: 
       m_Tutorial: {fileID: 0}
@@ -71,8 +71,8 @@ MonoBehaviour:
         m_MaskingEnabled: 0
         m_UnmaskedViews: []
     - m_Type: 1
-      m_Summary: "Drag BuildingShort Prefab to Scene\t"
-      m_Text: Drag <b>BuildingShort</b> Prefab from the Project window into the empty
+      m_Summary: "Drag JumpRamp Prefab to Scene\t"
+      m_Text: Drag <b>JumpRamp</b> Prefab from the Project window into the empty
         space in the Scene view.
       m_TutorialButtonText: 
       m_Tutorial: {fileID: 0}
@@ -100,7 +100,17 @@ MonoBehaviour:
             m_Items: []
           m_MaskType: 0
           m_MaskSizeModifier: 0
-          m_UnmaskedControls: []
+          m_UnmaskedControls:
+          - m_SelectorMode: 0
+            m_GUIContent:
+              m_Text: JumpRamp
+              m_Image: {fileID: 0}
+              m_Tooltip: 
+            m_ControlName: 
+            m_PropertyPath: 
+            m_TargetType:
+              m_TypeName: 
+            m_GUIStyleName: 
         - m_SelectorType: 1
           m_ViewType:
             m_TypeName: 
@@ -116,8 +126,8 @@ MonoBehaviour:
     m_CameraMode: 1
     m_FocusMode: 0
     m_Orthographic: 0
-    m_Size: 161.62846
-    m_Pivot: {x: -18.777697, y: -50.11087, z: 35.16481}
+    m_Size: 80.12336
+    m_Pivot: {x: 14.9550495, y: -41.743553, z: 47.528793}
     m_Rotation: {x: -0.45937636, y: 0.0071921935, z: -0.0037197447, w: -0.8882049}
     m_FrameObject:
       m_SceneGuid: 
@@ -132,21 +142,6 @@ MonoBehaviour:
   m_DoneButton: Done
   m_CompletedSound: {fileID: 8300000, guid: 93fbb109633e844259ea828442bda0cb, type: 3}
   m_autoAdvance: 1
---- !u!114 &114113261752726112
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 65e1fec86be44c61881dbc60a0ea2c02, type: 3}
-  m_Name: 'Paragraph 3, Criterion 1, 1: Buiding_Short (GameObject)'
-  m_EditorClassIdentifier: 
-  m_ReferenceHolder: {fileID: 0}
-  m_Criterion: {fileID: 114155400192661620}
-  m_ReferenceName: '1: Buiding_Short (GameObject)'
 --- !u!114 &114155400192661620
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -159,17 +154,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd3e7c665e4144f519b7ee9de726ea5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_PrefabParent: {fileID: 1861639547071064576, guid: 45c52fcc7429b214c8f9a6d85321ba77,
+  m_PrefabParent: {fileID: 3532500723291440203, guid: db0af21853ba047fda7b6e30b74ffedf,
     type: 3}
   m_FuturePrefabInstances:
     m_Items:
-    - m_PrefabParent: {fileID: 1861639547071064576, guid: 45c52fcc7429b214c8f9a6d85321ba77,
+    - m_PrefabParent: {fileID: 3532500723291440203, guid: db0af21853ba047fda7b6e30b74ffedf,
         type: 3}
-      m_FutureReference: {fileID: 114113261752726112}
-    - m_PrefabParent: {fileID: 5538800703641817082, guid: 45c52fcc7429b214c8f9a6d85321ba77,
+      m_FutureReference: {fileID: 3057648558772609543}
+    - m_PrefabParent: {fileID: 531054675660519000, guid: db0af21853ba047fda7b6e30b74ffedf,
         type: 3}
-      m_FutureReference: {fileID: 114537518878008684}
---- !u!114 &114537518878008684
+      m_FutureReference: {fileID: 5624349241633580052}
+--- !u!114 &3057648558772609543
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -179,8 +174,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 65e1fec86be44c61881dbc60a0ea2c02, type: 3}
-  m_Name: 'Paragraph 3, Criterion 1, 2: Buiding_Short (Transform)'
+  m_Name: 'Paragraph 3, Criterion 1, 1: JumpRamp (GameObject)'
   m_EditorClassIdentifier: 
   m_ReferenceHolder: {fileID: 0}
   m_Criterion: {fileID: 114155400192661620}
-  m_ReferenceName: '2: Buiding_Short (Transform)'
+  m_ReferenceName: '1: JumpRamp (GameObject)'
+--- !u!114 &5624349241633580052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65e1fec86be44c61881dbc60a0ea2c02, type: 3}
+  m_Name: 'Paragraph 3, Criterion 1, 2: JumpRamp (Transform)'
+  m_EditorClassIdentifier: 
+  m_ReferenceHolder: {fileID: 0}
+  m_Criterion: {fileID: 114155400192661620}
+  m_ReferenceName: '2: JumpRamp (Transform)'

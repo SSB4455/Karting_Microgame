@@ -18,7 +18,7 @@ MonoBehaviour:
     - m_Type: 0
       m_Summary: 
       m_Text: Other materials within this project can be found inside of the <b>Materials</b>
-        folder inside the <b>KartTemplate</b> folder.
+        folder inside the <b>Karting -> Art</b> folder.
       m_TutorialButtonText: 
       m_Tutorial: {fileID: 0}
       m_Icons:
@@ -29,7 +29,7 @@ MonoBehaviour:
       m_Criteria:
         m_Items: []
       m_MaskingSettings:
-        m_Enabled: 1
+        m_MaskingEnabled: 1
         m_UnmaskedViews:
         - m_SelectorType: 1
           m_ViewType:
