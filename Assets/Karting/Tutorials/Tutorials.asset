@@ -18,7 +18,7 @@ MonoBehaviour:
   description: Start building your first game now. Have fun clicking through these
     6 helpful steps and you will have the foundation to modifying your first game
     in less than 30 minutes.
-  projectLayout: {fileID: 0}
+  projectLayout: {fileID: 102900000, guid: 7a55d28f119eb4bb2a019158b480027a, type: 3}
   sections:
   - orderInView: 0
     heading: Playtest

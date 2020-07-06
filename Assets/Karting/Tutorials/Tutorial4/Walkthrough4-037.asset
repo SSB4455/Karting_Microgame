@@ -35,7 +35,7 @@ MonoBehaviour:
       m_Text: "<b><size=14>Test your jump</size></b>\n\nNow it's time to test your
         addition to the track. Enter play mode to see how far you can jump.\n\nYou
         can also try changing the Kart speed or make the jump bigger.\n\nWhen you
-        are done, click next to continue. \n"
+        are happy with your changes, click next to continue. \n"
       m_TutorialButtonText: 
       m_Tutorial: {fileID: 0}
       m_Icons:
